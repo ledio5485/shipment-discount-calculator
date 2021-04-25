@@ -1,0 +1,20 @@
+org/example/domain/ShippingPriceTest.java
+ org.example.domain.ShippingPriceTest
+org/example/logic/FileInputParserTest.java
+ org.example.logic.FileInputParserTest
+org/example/ShipmentDiscountCalculatorIntegrationTest.java
+ org.example.ShipmentDiscountCalculatorIntegrationTest
+org/example/domain/TransactionTest.java
+ org.example.domain.TransactionTest
+org/example/logic/ConsolePrintServiceTest.java
+ org.example.logic.ConsolePrintServiceTest
+org/example/repository/AccumulatedDiscountRepositoryTest.java
+ org.example.repository.AccumulatedDiscountRepositoryTest
+org/example/repository/ShippingPriceRepositoryTest.java
+ org.example.repository.ShippingPriceRepositoryTest
+org/example/logic/rules/StandardPriceRuleTest.java
+ org.example.logic.rules.StandardPriceRuleTest
+org/example/logic/rules/SmallShipmentDiscountRuleTest.java
+ org.example.logic.rules.SmallShipmentDiscountRuleTest
+org/example/logic/rules/ThirdLShipmentInMonthViaLPRuleTest.java
+ org.example.logic.rules.ThirdLShipmentInMonthViaLPRuleTest
