@@ -25,8 +25,8 @@ The algorithm is very simple:
 3) It creates a price list catalog to use later
 4) Apply the standard price to each transaction
 5) Apply all discount rules(only 2 for now) to each transaction
-   1) at this point we can add even more discount rules
-   2) Accumulated discounts cannot exceed 10 € in a calendar month. If there are not enough funds to fully cover a discount in the current calendar month, it should be covered partially.
+   1) At this point we can add even more discount rules (Open-Closed Principle)
+   2) Constraint: The accumulated discounts cannot exceed 10 € in a calendar month. If there are not enough funds to fully cover a discount in the current calendar month, it should be covered partially.
 6) Write the formatted output in terminal/console:
 
 ```shell

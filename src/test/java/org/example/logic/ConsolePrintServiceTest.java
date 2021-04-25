@@ -38,7 +38,7 @@ class ConsolePrintServiceTest {
 
         var expected =
                 "2015-02-01 S MR 0.00 -\n" +
-                "2015-02-02 M LP 0.00 -";
+                        "2015-02-02 M LP 0.00 -";
         assertEquals(expected, outputStreamCaptor.toString().trim());
     }
 }

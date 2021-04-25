@@ -62,7 +62,7 @@ public class Transaction {
             if (getShipmentDiscount().compareTo(BigDecimal.ZERO) > 0) {
                 return String.format(Locale.ENGLISH, "%s %,.2f %,.2f", getOriginalValue(), getShipmentPrice(), getShipmentDiscount());
             } else {
-                return String.format(Locale.ENGLISH,"%s %,.2f -", getOriginalValue(), getShipmentPrice());
+                return String.format(Locale.ENGLISH, "%s %,.2f -", getOriginalValue(), getShipmentPrice());
             }
         } else {
             return String.format("%s Ignored", getOriginalValue());

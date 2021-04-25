@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.time.Clock;
 import java.time.LocalDate;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class AccumulatedDiscountRepositoryTest {
 

@@ -1,8 +1,8 @@
 package org.example;
 
+import org.example.logic.ConsolePrintService;
 import org.example.logic.FileInputParser;
 import org.example.logic.PriceService;
-import org.example.logic.ConsolePrintService;
 import org.example.repository.AccumulatedDiscountRepository;
 import org.example.repository.ShippingPriceRepository;
 
